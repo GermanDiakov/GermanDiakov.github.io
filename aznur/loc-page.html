@@ -1,0 +1,375 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aznur - location</title>
+
+    <link rel="icon" href="favicon.ico">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300|Open+Sans+Condensed:300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="/bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="old_styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+
+  <div class="container">
+    <header class="main-header">
+      <a href="" class="logo">
+        <i class="icon logo-lg"></i>
+      </a>
+
+      <nav class="main-nav">
+        <a href="">booking</a>
+        <a href="">top offers</a>
+        <a href="">fleet</a>
+        <a href="">services</a>
+        <a href="">BUY AUTO</a>
+        <a href="">about Aznur</a>
+        <a href="" class="active">Locations</a>
+      </nav>
+
+      <div class="mobile-nav-toggle">
+        <button class="btn-toggle"></button>
+      </div>
+
+
+      <div class="right-controls">
+        <div class="dropdown">
+          <a href="" class="dropdown-btn btn black"><i class="icon lang-de"></i></a>
+
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href=""><i class="icon lang-ru"></i></a></li>
+              <li><a href=""><i class="icon lang-en"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="page-media">
+      <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+      <div style='overflow:hidden;height:450px;width:100%;'>
+        <div id='gmap_canvas' style='height:450px;width:100%;'></div>
+        <div>
+          <small><a href="http://embedgooglemaps.com"> embed google maps </a></small>
+        </div>
+        <div>
+          <small><a href="https://privacypolicygenerator.info">privacy policy generator</a></small>
+        </div>
+        <style>#gmap_canvas img {
+          max-width: none !important;
+          background: none !important
+        }</style>
+      </div>
+      <script type='text/javascript'>function init_map() {
+        var myOptions = {
+          zoom: 16,
+          center: new google.maps.LatLng(50.093824, 8.691366199999948),
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          scrollwheel: false,
+          navigationControl: false,
+          mapTypeControl: false,
+          scaleControl: false,
+          draggable: false
+        };
+        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+        marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(50.093824, 8.691366199999948)});
+        infowindow = new google.maps.InfoWindow({content: '<strong>Title</strong><br>Darmstädter Landstraße 199, 60598 Frankfurt am Main, Germany<br>'});
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map, marker);
+        });
+        infowindow.open(map, marker);
+      }
+      google.maps.event.addDomListener(window, 'load', init_map);</script>
+    </div>
+
+    <section class="gray-bg">
+      <aside class="sidebar">
+        <section class="navigation widget">
+          <ul>
+            <li>
+              <a href="">AZNUR Berlin</a>
+            </li>
+
+            <li class="active"><a href="">AZNUR Frankfurt/M.</a></li>
+            <li><a href="">AZNUR Stuttgart</a></li>
+          </ul>
+        </section>
+      </aside>
+
+      <div class="content">
+        <ul class="breadcrumbs">
+          <li><a href="">AZNUR</a></li>
+          <li><a href="">Locations</a></li>
+          <li class="active"><a href="">AZNUR Frankfurt/Main</a></li>
+        </ul>
+
+        <article>
+
+          <h1>AZNUR Frankfurt/Main</h1>
+
+          <h5>Our AZNUR customer service will gladly help you further.</h5>
+
+          <p>Should you have questions about our offers or reservations already made, please get in touch on the following numbers:</p>
+
+          <p class="white">Tel.: +49 69 15 34 52 74 <br>
+            Fax: +49 69 15 34 52 74</p>
+
+          <p class="white">E-Mail: <a href="mailto:info-frankfurt@aznur-rent.com" class="link">info-frankfurt@aznur-rent.com</a></p>
+
+          <h4>Office Hours</h4>
+          <p class="white">Monday - Friday <br>
+            9.00 - 18.00 Uhr</p>
+
+          <h4>AZNUR GmbH</h4>
+          <p class="white">Autovermietung Frankfurt/Main · rent a Car <br>
+            Darmstädter Landstraße 199 <br>
+            60598 Frankfurt/Main</p>
+
+
+        </article>
+      </div>
+
+    </section>
+
+    <section class="contacts">
+      <a href="" class="logo">
+        <i class="icon logo-md"></i>
+      </a>
+
+      <div class="phone-item">
+        <p>Phone Berlin: <span>+49 30 54822908</span></p>
+      </div>
+      <div class="phone-item">
+        <p>Phone Stuttgart: <span>+49 30 54822908</span></p>
+      </div>
+      <div class="phone-item">
+        <p>Phone Frankfurt/M.: <span>+49 30 54822908</span></p>
+      </div>
+    </section>
+
+    <section class="full-navigation">
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">booking</h2></a>
+        <ul>
+          <li><a href="">Terms and conditions</a></li>
+          <li><a href="">Smth else</a></li>
+        </ul>
+      </div>
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">top offers</h2></a>
+
+        <ul>
+          <li><a href="">Weekend Special</a></li>
+          <li><a href="">Company rates</a></li>
+          <li><a href="">Long-term hire</a></li>
+        </ul>
+      </div>
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">fleet</h2></a>
+
+        <ul>
+          <li><a href="">Compact</a></li>
+          <li><a href="">Middle-sized class</a></li>
+          <li><a href="">Station wagons</a></li>
+          <li><a href="">SUV's</a></li>
+          <li><a href="">Upper middle-sized class</a></li>
+          <li><a href="">Cabriolets</a></li>
+          <li><a href="">Luxury class</a></li>
+          <li><a href="">Bus</a></li>
+        </ul>
+
+      </div>
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">services</h2></a>
+
+        <ul>
+          <li><a href="">Limousinen-Service</a></li>
+          <li><a href="">Pickup Service</a></li>
+          <li><a href="">Buy auto</a></li>
+        </ul>
+      </div>
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">about aznur</h2></a>
+
+        <ul>
+          <li><a href="">About us</a></li>
+          <li><a href="">Partners</a></li>
+          <li><a href="">Jobs</a></li>
+        </ul>
+      </div>
+      <div class="col nav-item">
+        <a href="" class="link"><h2 class="red">Stations</h2></a>
+
+        <ul>
+          <li><a href="">AZNUR Berlin</a></li>
+          <li><a href="">AZNUR Frankfurt/M.</a></li>
+          <li><a href="">AZNUR Stuttgart</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="our-partners">
+      <div class="title">
+        <h2 class="gray">Our Partners</h2>
+      </div>
+
+      <ul class="partners-list">
+        <li>
+          <a href="">
+            <img src="images/versicherung.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="images/tuniCar.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="images/westEast.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="images/sya.png" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="images/youthOnline.png" alt="">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="main-footer">
+      <div class="left-col">
+        <span>© 2015 AZNUR</span>
+        <ul>
+          <li><a href="">Impressum</a></li>
+          <li><a href="">AGB</a></li>
+        </ul>
+      </div>
+
+      <div class="right-col">
+        <span>Powered by</span>
+        <a href=""><i class="icon farm-inline-logo"></i></a>
+      </div>
+    </footer>
+
+
+    <div class="mobile-navigation">
+      <ul>
+        <li><a href="">Booking</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Top offers</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+
+        </li>
+        <li><a href="">Fleet</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+        </li>
+        <li><a href="">Services</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+        </li>
+        <li><a href="">About aznur <br> about aznur</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+        </li>
+        <li><a href="">Stations</a>
+          <a href="" class="submenu-toggle"></a>
+
+          <ul class="submenu">
+            <li><a href="">Weekend Special</a></li>
+            <li><a href="">Company rates</a></li>
+            <li><a href="">Long-term hire</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+
+
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/iframe-resizer/js/iframeResizer.js"></script>
+    <script src="/bower_components/iframe-resizer/js/iframeResizer.contentWindow.js"></script>
+    <script src="/bower_components/jquery.iframetracker/jquery.iframetracker.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/plugins.js -->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>-->
+    <!--<script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>-->
+    <script src="scripts/slick.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

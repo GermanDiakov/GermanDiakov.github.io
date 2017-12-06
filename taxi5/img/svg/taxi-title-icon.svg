@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="20px" viewBox="0 0 39 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>taxi-title-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Index" sketch:type="MSArtboardGroup" transform="translate(-1038.000000, -208.000000)" fill="#FFFFFF">
+            <g id="HEAD-2" sketch:type="MSLayerGroup" transform="translate(1.000000, -1.000000)">
+                <g id="Современное--+-Fill-1" transform="translate(114.000000, 209.000000)">
+                    <g id="Такси-для-людеи-+-Fill-1">
+                        <text id="Такси-для-людеи" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="120" font-weight="bold" sketch:alignment="middle" line-spacing="115">
+                            <tspan x="0" y="128">Такси для людеи</tspan>
+                        </text>
+                        <path d="M933,0 L943,0 L943,10 L933,10 L933,0 Z M952,0 L962,0 L962,10 L952,10 L952,0 Z M923,10 L933,10 L933,20 L923,20 L923,10 Z M943,10 L953,10 L953,20 L943,20 L943,10 Z" id="taxi-title-icon" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
